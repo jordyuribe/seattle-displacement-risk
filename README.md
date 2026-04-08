@@ -5,8 +5,8 @@ GeoPandas, and ArcGIS Pro. Identifies communities most vulnerable to displacemen
 four socioeconomic indicators and statistically significant hot spot analysis.
 
 ## Live Maps
-- [Displacement Risk Choropleth](https://arcg.is/qyreL0) — Weighted composite risk score by census tract
-- [Hot Spot Analysis](https://arcg.is/1b1H4u0) — Statistically significant clusters of high and low displacement risk (Getis-Ord Gi*)
+- [Displacement Risk Choropleth](https://arcg.is/0DfHbC0) — Weighted composite risk score by census tract
+- [Hot Spot Analysis](https://arcg.is/1bSiKD1) — Statistically significant clusters of high and low displacement risk (Getis-Ord Gi*)
 
 ## Maps
 ![Displacement Risk Choropleth](data/processed/outputs/hot-spot-analysis.jpg)
