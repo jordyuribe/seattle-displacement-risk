@@ -26,7 +26,7 @@ Each indicator is normalized to a 0–1 scale using min-max normalization before
 the weighted sum is computed. Hot spot analysis uses the Getis-Ord Gi* statistic 
 to identify statistically significant spatial clusters of high and low risk.
 
-See [methodology/methodology.pdf](methodology/methodology.pdf) for full documentation.
+See [methodology/Seattle_Displacement_Risk_Methodology.pdf](methodology/Seattle_Displacement_Risk_Methodology.pdf) for full documentation.
 
 ## Data Sources
 - U.S. Census Bureau ACS 5-Year Estimates (2023)
