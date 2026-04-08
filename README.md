@@ -4,8 +4,9 @@ A tract-level displacement risk index for King County, WA built using U.S. Censu
 GeoPandas, and ArcGIS Pro. Identifies communities most vulnerable to displacement using 
 four socioeconomic indicators and statistically significant hot spot analysis.
 
-## Live Map
-*ArcGIS Online hosted feature layer — coming soon*
+## Live Maps
+- [Displacement Risk Choropleth](https://arcg.is/qyreL0) — Weighted composite risk score by census tract
+- [Hot Spot Analysis](https://arcg.is/1b1H4u0) — Statistically significant clusters of high and low displacement risk (Getis-Ord Gi*)
 
 ## Maps
 ![Displacement Risk Choropleth](outputs/displacement_risk_map.jpg)
