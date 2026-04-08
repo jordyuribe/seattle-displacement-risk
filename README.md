@@ -9,8 +9,8 @@ four socioeconomic indicators and statistically significant hot spot analysis.
 - [Hot Spot Analysis](https://arcg.is/1b1H4u0) — Statistically significant clusters of high and low displacement risk (Getis-Ord Gi*)
 
 ## Maps
-![Displacement Risk Choropleth](outputs/seattle-displacement-risk_map.jpg)
-![Hot Spot Analysis](outputs/hotspot-analysis-map.jpg)
+![Displacement Risk Choropleth](data/processed/outputs/hot-spot-analysis.jpg)
+![Hot Spot Analysis](data/processed/outputs/Layout.jpg)
 
 ## Methodology
 The displacement risk score is a weighted composite of four normalized indicators:
