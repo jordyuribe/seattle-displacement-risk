@@ -1,16 +1,17 @@
 # Seattle Displacement & Gentrification Risk Map
 
-A tract-level displacement risk index for King County, WA built using U.S. Census ACS data, 
-GeoPandas, and ArcGIS Pro. Identifies communities most vulnerable to displacement using 
+A tract-level displacement risk index for King County, WA built using U.S. Census ACS data,
+GeoPandas, and ArcGIS Pro. Identifies communities most vulnerable to displacement using
 four socioeconomic indicators and statistically significant hot spot analysis.
 
 ## Live Maps
+- [StoryMap](https://arcg.is/1Pnnbr) — Full narrative, methodology, and findings
 - [Displacement Risk Choropleth](https://arcg.is/0DfHbC0) — Weighted composite risk score by census tract
 - [Hot Spot Analysis](https://arcg.is/1bSiKD1) — Statistically significant clusters of high and low displacement risk (Getis-Ord Gi*)
 
 ## Maps
-![Displacement Risk Choropleth](data/processed/outputs/hot-spot-analysis.jpg)
-![Hot Spot Analysis](data/processed/outputs/Layout.jpg)
+![Displacement Risk Choropleth](data/processed/outputs/Layout.jpg)
+![Hot Spot Analysis](data/processed/outputs/hot-spot-analysis.jpg)
 
 ## Methodology
 The displacement risk score is a weighted composite of four normalized indicators:
@@ -22,8 +23,8 @@ The displacement risk score is a weighted composite of four normalized indicator
 | % People of Color | 25% | Census ACS B03002 |
 | Median Income (inverted) | 25% | Census ACS B19013 |
 
-Each indicator is normalized to a 0–1 scale using min-max normalization before 
-the weighted sum is computed. Hot spot analysis uses the Getis-Ord Gi* statistic 
+Each indicator is normalized to a 0–1 scale using min-max normalization before
+the weighted sum is computed. Hot spot analysis uses the Getis-Ord Gi* statistic
 to identify statistically significant spatial clusters of high and low risk.
 
 See [methodology/Seattle_Displacement_Risk_Methodology.pdf](methodology/Seattle_Displacement_Risk_Methodology.pdf) for full documentation.
@@ -78,5 +79,5 @@ python scripts/join_scores.py
 Get a free Census API key at https://api.census.gov/data/key_signup.html
 
 ## Author
-Jordy Uribe Rivas — [linkedin.com/in/jordyuribe](https://linkedin.com/in/jordyuribe)  
+Jordy Uribe Rivas — [linkedin.com/in/jordyuribe](https://linkedin.com/in/jordyuribe)
 B.A. Geography: Data Science, University of Washington
